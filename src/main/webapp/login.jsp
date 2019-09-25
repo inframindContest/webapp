@@ -13,6 +13,6 @@
         response.sendRedirect("success.jsp");
     } else {
 
-        out.println("Invalid password <a href='index.jsp'>Try again, please!</a>");
+        out.println("its an Invalid password <a href='index.jsp'>try again</a>");
     }
 %>
