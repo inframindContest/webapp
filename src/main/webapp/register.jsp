@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Registration</title>
+        <title>Registration Page</title>
     </head>
     <body bgcolor="silver">
         <form method="post" action="userRegistration.jsp">
@@ -11,7 +11,7 @@
             <table border="1" width="30%" cellpadding="5">
                 <thead>
                     <tr>
-                        <th colspan="2">Enter Information Here</th>
+                        <th colspan="2">Enter Your Information Here</th>
                     </tr>
                 </thead>
                 <tbody>
