@@ -6,10 +6,10 @@
     String lastName = request.getParameter("lastName");
     String email = request.getParameter("email");
     Class.forName("com.mysql.jdbc.Driver");
-    Connection con = DriverManager.getConnection("jdbc:mysql://mysql1:3306/users",
-            "aminos", "1234");
+    Connection con = DriverManager.getConnection("jdbc:mysql://392ef68227d8:3306/users",
+            "root", "1234");
     Statement st = con.createStatement();
-    int i = st.executeUpdate("insert into users(first_name, last_name, email, username, password, regdate) values ('" + firstName + "','" 
+    int i = st.executeUpdate("insert into customers(first_name, last_name, email, username, password, regdate) values ('" + firstName + "','" 
     + lastName + "','" + email + "','" + userName + "','" + password + "', CURDATE())");
     if (i > 0) {
         response.sendRedirect("welcome.jsp");
